@@ -15,6 +15,8 @@ cucumber-junit 6.9.1,
 
 chromedriver.exe(Versão 88 - Windows).
 
+IDE utilizada: Eclipse versão - 2020-09
+
 # Instalação:
 Fazer o clone do projeto através da url: https://github.com/VitorRobertoOliveira/testeSelenium.git
 
