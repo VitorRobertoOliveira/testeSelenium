@@ -22,11 +22,16 @@ public class SendQuoteForm {
 		sendQuotePage.enterComments("Teste" + "\n" + "Testando" + "\n" + "Testado");	
 	}
 	
-	@Entao("submeto o formulario")
+	@Quando("submeto o formulario")
 	public void submitFinalForm() throws Exception {
 		sendQuotePage.assertValidationFormSendQuote();
-		sendQuotePage.finalValidationForm();
 		System.out.println("Teste Completo!" + "\n" + "Fehando o site!");
-	}	
+	}
+	
+	@Entao("deve-se ver a mensagem de sucesso {string}")
+	public void finalValidation(String value) throws Exception {
+		sendQuotePage.finalValidationForm(value);
+		System.out.println("Teste Completo!" + "\n" + "Fehando o site!");
+	}
 }
 

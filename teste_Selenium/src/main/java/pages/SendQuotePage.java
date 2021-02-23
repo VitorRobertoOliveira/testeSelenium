@@ -58,10 +58,10 @@ public class SendQuotePage extends BasePage {
 		Assert.assertTrue(formComplete);
 	}
 
-	public void finalValidationForm() throws Exception {
+	public void finalValidationForm(String value) throws Exception {
 		System.out.println("Validando o envio do formulário!");
 		boolean formComplete = false;
-		if (sendQuoteMaps.validateSendingEmailSuccess().getText().equals("Sending e-mail success!")) {
+		if (sendQuoteMaps.validateSendingEmailSuccess().getText().equals(value)) {
 			formComplete = true;
 			System.out.println("Formulário enviado com sucesso? =====> " + formComplete);
 			clickConfirmInviteForm();

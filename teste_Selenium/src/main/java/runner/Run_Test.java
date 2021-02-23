@@ -9,7 +9,7 @@ import io.cucumber.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "classpath:features", 
 				 glue = "steps", 
-				 tags = "@FillVehicleDataForm")
+				 tags = "@CompleteForm")
 public class Run_Test {
 	
 }
