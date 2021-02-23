@@ -11,7 +11,14 @@ junit 4.13.1,
 
 cucumber-java 6.9.1,
 
-cucumber-junit 6.9.1.
+cucumber-junit 6.9.1,
+
+chromedriver.exe(Versão 88 - Windows).
+
+# Instalação:
+Fazer o clone do projeto através da url: https://github.com/VitorRobertoOliveira/testeSelenium.git
+
+Rodar o projeto através da classe: class Run_Test
 
 # Passo a passo para o teste automático:
 
