@@ -1,6 +1,18 @@
 # testeSelenium
 Projeto em Java com Selenium Web Driver e Cucumber, usando o padrão Page Objects.
 
+# Configuraçãoes: 
+
+jdk 1.8, 
+
+selenium-java 3.141.59,
+
+junit 4.13.1,
+
+cucumber-java 6.9.1,
+
+cucumber-junit 6.9.1
+
 # Passo a passo para o teste automático:
 
 ==>	Entrar no site http://sampleapp.tricentis.com/101/app.php
