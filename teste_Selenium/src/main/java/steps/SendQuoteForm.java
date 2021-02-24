@@ -25,7 +25,6 @@ public class SendQuoteForm {
 	@Quando("submeto o formulario")
 	public void submitFinalForm() throws Exception {
 		sendQuotePage.assertValidationFormSendQuote();
-		System.out.println("Teste Completo!" + "\n" + "Fehando o site!");
 	}
 	
 	@Entao("deve-se ver a mensagem de sucesso {string}")
