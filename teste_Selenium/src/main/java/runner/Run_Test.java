@@ -12,5 +12,5 @@ import io.cucumber.junit.Cucumber;
 				 plugin = {"pretty","html:build/reports/cucumber","json:build/reports/cucumber-tests/test.json"},
 				 tags = "@CompleteForm")
 public class Run_Test {
-	
+
 }

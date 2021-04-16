@@ -38,6 +38,7 @@ public class BasePage {
 	 */
 	public void fillsField(WebElement campo, String value) {
 		wait.until(ExpectedConditions.visibilityOf(campo));
+		System.out.println("Teste");
 		campo.clear();
 		campo.sendKeys(value);
 		printFill(value);
