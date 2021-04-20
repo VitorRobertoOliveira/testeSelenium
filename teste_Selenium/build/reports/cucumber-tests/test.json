@@ -1,0 +1,159 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-20T14:07:39.075Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1432179000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BaseTest.before()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "CN001-Preencher_Formulario",
+        "description": "",
+        "id": "cn001-preencher-formulario;cn001-preencher-formulario",
+        "after": [
+          {
+            "result": {
+              "duration": 266226000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BaseTest.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9229563000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que eu acesse a url \"http://sampleapp.tricentis.com/101/app.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://sampleapp.tricentis.com/101/app.php\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.FillVehicleDataForm.accessUrl(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2863354000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "preencho o formulario Vehicle Data",
+            "match": {
+              "location": "steps.FillVehicleDataForm.fillFormVehicleDataPage()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 44004662000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "preencho o formulario Insurant Data",
+            "match": {
+              "location": "steps.FillInsurantDataForm.fillFormInsurantDataPage()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2180435000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencho o formulario Product Data",
+            "match": {
+              "location": "steps.ProductDataForm.fillFormProductDataPage()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 991207000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "preencho o formulario Price Option",
+            "match": {
+              "location": "steps.PriceOptionForm.fillFormPriceOptionPage()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1715400000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencho o formulario Send Quote",
+            "match": {
+              "location": "steps.SendQuoteForm.fillFormSendQuotePage()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 118245000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "submeto o formulario",
+            "match": {
+              "location": "steps.SendQuoteForm.submitFinalForm()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 8624382000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "deve-se ver a mensagem de sucesso \"Sending e-mail success!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sending e-mail success!\"",
+                  "offset": 34
+                }
+              ],
+              "location": "steps.SendQuoteForm.finalValidation(java.lang.String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompleteForm"
+          }
+        ]
+      }
+    ],
+    "name": "CN001-Preencher_Formulario",
+    "description": "",
+    "id": "cn001-preencher-formulario",
+    "keyword": "Funcionalidade",
+    "uri": "classpath:features/CN001-Preencher_Formulario.feature",
+    "tags": []
+  }
+]
